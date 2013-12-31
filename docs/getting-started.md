@@ -178,3 +178,4 @@ $server->waitFor(ServerState::ACTIVE, 600, $callback);
 ```
 So, the server will be polled until it is in an `ACTIVE` state, with a timeout of 600 seconds. When the poll happens, the
 callback function is executed - which in this case just logs some output.
+
